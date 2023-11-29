@@ -11,7 +11,7 @@ public class Calcado {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bem vindo a seção de calçados, qual calçado deseja comprar?(Digite o número)");
         String escolha = "0";
-        System.out.println("1. Tenis esportivo\n2.Tenis Social\n3.Tenis casual\n4.Sandalias\n5.Voltar");
+        System.out.println("1. Tênis esportivo\n2.Tênis Social\n3.Tênis casual\n4.Sandalias\n5.Voltar");
         escolha = scanner.nextLine();
         HandleCalcado(escolha);
 
@@ -35,6 +35,7 @@ public class Calcado {
                 //Calcados  calcados = new Calcados();
             case "5":
                 Menu voltar = new Menu();
+                voltar.MostrarMenu();
         }
     }
 

@@ -33,7 +33,7 @@ public class Menu {
                 MostrarMenu();
                 break;
             case "1":
-                //Calcados  calcados = new Calcados();
+                new Calcado().MostrarCalcado();
             case "5":
                 break;
         }

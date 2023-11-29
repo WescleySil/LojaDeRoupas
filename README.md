@@ -1,4 +1,4 @@
-# Trabalho final da cadeira de Ambientes de desenvolvimento de software
+# Trabalho final da cadeira de Ambientes de desenvolvimento de software ![Logo unifor](https://www.unifor.br/o/unifor-theme/images/favicon.ico)
 | Participantes   | 
 |-----------------|
 | Carlos Eduardo  |

@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- *
- *
  * @author Wescley Silva
  */
 public class Menu {
@@ -34,7 +32,12 @@ public class Menu {
                 break;
             case "1":
                 new Calcado().MostrarCalcado();
+                break;
+            case "2":
+                new Acessorios().MostrarAcessorio();
+                break;
             case "5":
+                System.out.println("Obrigado pela visita! Volte sempre!");
                 break;
         }
     }

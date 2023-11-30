@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Acessorios {
     public void MostrarAcessorio(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Bem vindo a seção de calçados, qual calçado deseja comprar?(Digite o número)");
+        System.out.println("Bem vindo a seção de acessórios, qual acessório deseja comprar?(Digite o número)");
         String escolha = "0";
         System.out.println("1.Meias\n2.Brincos\n3.Oculos\n4.Voltar");
         escolha = scanner.nextLine();

@@ -36,6 +36,8 @@ public class Menu {
             case "2":
                 new Acessorios().MostrarAcessorio();
                 break;
+            case "3":
+                new RoupasM().MostrarRoupasM();
             case "5":
                 System.out.println("Obrigado pela visita! Volte sempre!");
                 break;

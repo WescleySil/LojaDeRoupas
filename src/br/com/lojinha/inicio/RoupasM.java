@@ -1,12 +1,10 @@
 package br.com.lojinha.inicio;
 
+import java.util.ArrayList;
+import java.util.Scanner;
 /**
  * @author Carlos Eduardo Soares
  */
-
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class RoupasM {
     public void MostrarRoupasM(){
         Scanner scanner = new Scanner(System.in);

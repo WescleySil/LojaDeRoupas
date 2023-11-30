@@ -35,6 +35,7 @@ public class Acessorios {
                 System.out.println("Deseja comprar outro acessório?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarAcessorio();
                 break;
@@ -43,6 +44,7 @@ public class Acessorios {
                 System.out.println("Deseja comprar outro acessório?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarAcessorio();
                 break;
@@ -51,12 +53,14 @@ public class Acessorios {
                 System.out.println("Deseja comprar outro acessório?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarAcessorio();
                 break;
             case "4":
                 Menu voltar = new Menu();
                 voltar.MostrarMenu();
+                break;
         }
     }
 }

@@ -37,6 +37,7 @@ public class Calcado {
                 System.out.println("Deseja comprar outro sapato?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarCalcado();
                 break;
@@ -45,6 +46,7 @@ public class Calcado {
                 System.out.println("Deseja comprar outro sapato?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarCalcado();
                 break;
@@ -53,6 +55,7 @@ public class Calcado {
                 System.out.println("Deseja comprar outro sapato?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarCalcado();
                 break;
@@ -61,12 +64,14 @@ public class Calcado {
                 System.out.println("Deseja comprar outra sandalia?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarCalcado();
                 break;
             case "5":
                 Menu voltar = new Menu();
                 voltar.MostrarMenu();
+                break;
         }
     }
 

@@ -37,6 +37,7 @@ public class RoupasM {
                 System.out.println("Deseja comprar outra roupa?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarRoupasM();
                 break;
@@ -45,6 +46,7 @@ public class RoupasM {
                 System.out.println("Deseja comprar outra roupa?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarRoupasM();
                 break;
@@ -53,6 +55,7 @@ public class RoupasM {
                 System.out.println("Deseja comprar outra roupa?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarRoupasM();
                 break;
@@ -61,6 +64,7 @@ public class RoupasM {
                 System.out.println("Deseja comprar outra roupa?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarRoupasM();
                 break;
@@ -69,12 +73,14 @@ public class RoupasM {
                 System.out.println("Deseja comprar outra roupa?\n1.sim 2.não (Digite um número)");
                 if (!scanner.nextLine().equals("1")){
                     new Menu().MostrarMenu();
+                    break;
                 }
                 MostrarRoupasM();
                 break;
             case "6":
                 Menu voltar = new Menu();
                 voltar.MostrarMenu();
+                break;
         }
     }
 }

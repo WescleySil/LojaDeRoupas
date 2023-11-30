@@ -11,7 +11,7 @@ public class Menu {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bem vindo a Lojinha, para qual seção deseja ir?(Digite o número)");
         String escolha = "0";
-        System.out.println("1. Calçados\n2.Acessórios\n3.Roupas Masculino\n4.Roupas Feminino\n5.Sair");
+        System.out.println("1.Calçados\n2.Acessórios\n3.Roupas Masculino\n4.Roupas Feminino\n5.Sair");
         escolha = scanner.nextLine();
         HandleMenu(escolha);
     }
@@ -38,6 +38,7 @@ public class Menu {
                 break;
             case "3":
                 new RoupasM().MostrarRoupasM();
+                break;
             case "5":
                 System.out.println("Obrigado pela visita! Volte sempre!");
                 break;
